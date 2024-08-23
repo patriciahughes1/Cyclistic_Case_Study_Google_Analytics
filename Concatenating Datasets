@@ -1,1 +1,35 @@
+from token import ASYNC
 
+import pandas as pd
+
+# loading data sets from april to september
+april_2020_data = pd.read_csv(r'C:\Users\lucky\Documents\Data Analytics Portfolio\Excel\BikeShare Data\april_2020_bikeshare.csv')
+may_2020_data = pd.read_csv(r'C:\Users\lucky\Documents\Data Analytics Portfolio\Excel\BikeShare Data\may_2020_bikeshare.csv')
+june_2020_data = pd.read_csv(r'C:\Users\lucky\Documents\Data Analytics Portfolio\Excel\BikeShare Data\june_2020_bikeshare.csv')
+july_2020_data = pd.read_csv(r'C:\Users\lucky\Documents\Data Analytics Portfolio\Excel\BikeShare Data\july_2020_bikeshare.csv')
+aug_2020_data = pd.read_csv(r'C:\Users\lucky\Documents\Data Analytics Portfolio\Excel\BikeShare Data\aug_2020_bikeshare.csv')
+sept_2020_data = pd.read_csv(r'C:\Users\lucky\Documents\Data Analytics Portfolio\Excel\BikeShare Data\sept_2020_bikeshare.csv')
+
+# count the rows in each set
+april_rides = len(april_2020_data)
+may_rides = len(may_2020_data)
+june_rides = len(june_2020_data)
+july_rides = len(july_2020_data)
+aug_rides = len(aug_2020_data)
+sept_rides = len(sept_2020_data)
+
+print('April Rides Total:',april_rides)
+print('May Rides Total:',may_rides)
+print('June Rides Total:',june_rides)
+print('July Rides Total:',july_rides)
+print('August Rides Total:',aug_rides)
+print('September Rides Total:',sept_rides)
+print('Total Rides Total:',april_rides + may_rides + june_rides + july_rides + aug_rides + sept_rides)
+
+
+#combining or concatenating data sets
+combined_data = pd.concat([april_2020_data, may_2020_data, june_2020_data,july_2020_data,aug_2020_data,sept_2020_data])
+
+#Checking to make sure the total rides and combined data matches
+combined_data_len = len(combined_data)
+print('Combined Data Length:', combined_data_len)
