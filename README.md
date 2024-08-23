@@ -1,4 +1,4 @@
-# Cyclistic_Case_Study_Google_Analytics WORK IN PROGRESS
+# Cyclistic_Case_Study_Google_Analytics ONGOING
 Case Study from Google Analytics Course 
 
 # Introduction
