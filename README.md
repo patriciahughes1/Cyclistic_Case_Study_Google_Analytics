@@ -124,13 +124,12 @@ __Questions to consider:__
 
 # Act
 __Questions to consider:__
-*                                                                                                                                        Whatisyour nalconclusionbasedonyouranalysis?
- ● Howcouldyourteamandbusinessapplyyourinsights?
- ● Whatnextstepswouldyouoryourstakeholderstakebasedonyour ndings?
- ● Isthereadditionaldatayoucouldusetoexpandonyour ndings?
- 10
-Keytasks
- 1.
- Create your por olio.
+* What is your final conclusion based on your analysis?
+* How could your team and business apply your insights?
+* What next steps would you or your stakeholders take based on your findings?
+* Is there additional data you could use to expandon your findings?
+  
+ __Keytasks__
+ 1. Create your por olio.
  2. Addyourcasestudy.
  3. Practice presenting your case study to a friend or family member.
