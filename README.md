@@ -5,7 +5,7 @@ Case Study from Google Analytics Course
 
 In this case study, I will be using the data analysis process and steps to demostrate my understanding and answer real-world questions from this fictional company.
 
-Data Link: [divvy_tripdata]([url](https://divvy-tripdata.s3.amazonaws.com/index.html))
+Data Link: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
 # Scenario
 
