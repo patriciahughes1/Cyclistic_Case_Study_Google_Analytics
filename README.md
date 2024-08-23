@@ -5,6 +5,8 @@ Case Study from Google Analytics Course
 
 In this case study, I will be using the data analysis process and steps to demostrate my understanding and answer real-world questions from this fictional company.
 
+Data Link: [divvy_tripdata]([url](https://divvy-tripdata.s3.amazonaws.com/index.html))
+
 # Scenario
 
 Working as a junior data analyst in the marketing team for Cyclistic, a bike-sharing company based in Chicago. 
@@ -13,9 +15,9 @@ The goal is to find key differences in how these two groups use the bikes in ord
 that is aimed to converting casual riders into annual members. 
 
 Steps:
-  Ask
-  Prepare
-  Process
-  Analyze
-  Share
-  Act
+Ask
+Prepare
+Process
+Analyze
+Share
+Act
