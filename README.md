@@ -1,4 +1,4 @@
-# Cyclistic_Case_Study_Google_Analytics
+# Cyclistic_Case_Study_Google_Analytics WORK IN PROGRESS
 Case Study from Google Analytics Course 
 
 # Introduction
@@ -61,11 +61,76 @@ analyzing the Cyclistic historical bike trip data to identify trends.
 3. How can Cyclistic use digital media to inffluence casual riders to become members?
 
 # Prepare
+By using 6 months of the data provided, we will be able to prepare the dataset.
+I'll be using April 2020 to September 2020 data.
 
+__Questions to consider:__
+* Where is your data located?
+* How is the data organized?
+* Are there issues with bias or credibility in this data?
+* How are you addressing licensing, privacy, security, and accessibility?
+* How did you verify the data’s integrity?
+* How does it help you answer your question?
+* Are there any problems with the data?
 
+__Key Tasks__
+1. Download data and store it appropriately.
+2. Identify how it’s organized.
+3. Sort and filter the data.
+4. Determine the credibility of the data.
+   
 # Process
+__Questions to consider:__
+* What tools are you choosing and why?
+* Have you ensured your data’s integrity?
+* What steps have you taken to ensure that your data is clean?
+* How can you verify that your data is clean and ready to analyze?
+* Have you documented your cleaning process so you can review and share those results?
+
+__Keytasks__
+1. Check the data for errors.
+2. Choose your tools.
+3. Transform the data so you can work with it effectively.
+4. Document the cleaning process.
 
 # Analyze
+__Questions to consider:__
+* How should you organize your data to perform analysis on it?
+* Has your data been properly formatted?
+* What surprises did you discover in the data?
+* What trends or relationships did you find in the data?
+* How will these insights help answer your business questions?
+  
+__Keytasks__
+1. Aggregate your data so it’s useful and accessible.
+2. Organize and format your data.
+3. Perform calculations.
+4. Identify trends and relationships.
 
 # Share
+__Questions to consider:__
+* Were you able to answer the question of how annual members and casual riders use Cyclistic bikes differently?
+* What story does your data tell?
+* How do your finndings relate to your original question?
+* Who is your audience? What is the best way to communicate with them?
+* Can data visualization help you share your findings?
+* Is your presentation accessible to your audience?
+  
+ __Keytasks__
+ 1. Determine the best way to share your findings.
+ 2. Create effective data visualizations.
+ 3. Present your findings.
+ 4. Ensure your work is accessible.
+
 # Act
+__Questions to consider:__
+*                                                                                                                                        Whatisyour nalconclusionbasedonyouranalysis?
+ ● Howcouldyourteamandbusinessapplyyourinsights?
+ ● Whatnextstepswouldyouoryourstakeholderstakebasedonyour ndings?
+ ● Isthereadditionaldatayoucouldusetoexpandonyour ndings?
+ 10
+Keytasks
+ 1.
+ Create your por olio.
+ 2. Addyourcasestudy.
+ 3. Practice presenting your case study to a friend or family member.
