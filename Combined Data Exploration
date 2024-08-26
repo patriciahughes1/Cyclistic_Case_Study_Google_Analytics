@@ -61,7 +61,3 @@ print('Riders by Day of the Week:',average_ride_length_by_day)
 average_ride_length_by_rider = combined_data.groupby('member_casual')['ride_length'].mean().reset_index()
 
 print('Members and Casual Riders Average:', average_ride_length_by_rider)
-
-average_ride_length_by_day_of_week = combined_data.groupby('member_casual')['day_of_week'].mean().reset_index()
-
-print('Riders by day of Week:', average_ride_length_by_day_of_week)
