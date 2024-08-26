@@ -47,6 +47,13 @@ print('Minimum Length of Ride:', min_ride_length)
 print('Average Length of Ride:', average_ride_length)
 print('Most Used day of the Week:', most_used_day_name)
 
+#most used day of the week length and avg ride time
+friday_count = len(combined_data[combined_data['day_of_week'] == 6])
+friday_avg_ride_length = combined_data[combined_data['day_of_week'] == 6].mean()
+
+print('Friday Count:', friday_count)
+print('Friday Average Ride Time:', friday_avg_ride_length)
+
 #calculating the average ride length for casual riders and members
 average_ride_length = combined_data.groupby('member_casual')['ride_length'].mean().reset_index()
 
