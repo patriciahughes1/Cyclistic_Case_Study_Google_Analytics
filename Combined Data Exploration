@@ -1,0 +1,18 @@
+#Checking to make sure the total rides and combined data matches
+combined_data_len = len(combined_data)
+print('Combined Data Length:', combined_data_len)
+
+#check info on dataset columns and column data types
+print(combined_data.info())
+
+#convert started_at and ended_at columns from obj to datetime
+combined_data['started_at'] = pd.to_datetime(combined_data['started_at'])
+print(combined_data.info())
+
+combined_data['ended_at'] = pd.to_datetime(combined_data['ended_at'])
+print(combined_data.info())
+
+#added a column for the duration of each ride
+combined_data['ride_length'] = combined_data['ended_at'] - combined_data['started_at']
+
+print(combined_data)
