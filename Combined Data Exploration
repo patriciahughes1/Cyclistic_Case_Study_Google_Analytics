@@ -16,3 +16,52 @@ print(combined_data.info())
 combined_data['ride_length'] = combined_data['ended_at'] - combined_data['started_at']
 
 print(combined_data)
+
+#added another column to calculate the day of the week that each ride started
+combined_data['day_of_week'] = combined_data['started_at'].dt.weekday +1
+print(combined_data)
+
+#calculating the min, max, and avg for the duration of a ride
+max_ride_length = combined_data['ride_length'].max()
+
+min_ride_length = combined_data['ride_length'].min()
+
+average_ride_length = combined_data['ride_length'].mean()
+
+most_used_day = combined_data['day_of_week'].mode()[0]
+
+# Map the numeric day to the day of the week
+day_name_mapping = {
+    1: 'Sunday',
+    2: 'Monday',
+    3: 'Tuesday',
+    4: 'Wednesday',
+    5: 'Thursday',
+    6: 'Friday',
+    7: 'Saturday'}
+
+most_used_day_name = day_name_mapping[most_used_day]
+
+print('Maximum Length of Ride:', max_ride_length)
+print('Minimum Length of Ride:', min_ride_length)
+print('Average Length of Ride:', average_ride_length)
+print('Most Used day of the Week:', most_used_day_name)
+
+#calculating the average ride length for casual riders and members
+average_ride_length = combined_data.groupby('member_casual')['ride_length'].mean().reset_index()
+
+print('Ride length for Riders:',average_ride_length)
+
+average_ride_length_by_day = combined_data.groupby('day_of_week')['ride_length'].mean().reset_index()
+
+average_ride_length_by_day['day_of_week'] = average_ride_length_by_day['day_of_week'].map(day_name_mapping)
+
+print('Riders by Day of the Week:',average_ride_length_by_day)
+
+average_ride_length_by_rider = combined_data.groupby('member_casual')['ride_length'].mean().reset_index()
+
+print('Members and Casual Riders Average:', average_ride_length_by_rider)
+
+average_ride_length_by_day_of_week = combined_data.groupby('member_casual')['day_of_week'].mean().reset_index()
+
+print('Riders by day of Week:', average_ride_length_by_day_of_week)
