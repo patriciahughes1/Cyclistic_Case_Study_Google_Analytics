@@ -60,6 +60,16 @@ analyzing the Cyclistic historical bike trip data to identify trends.
 2. Why would casual riders buy Cyclistic annual memberships?
 3. How can Cyclistic use digital media to inffluence casual riders to become members?
 
+We will focus on the first question: __How do annual members and casual riders use Cyclistic bikes differently?__
+
+__Questions to consider:__
+* What is the problem you are trying to solve?
+* How can your insights drive business decisions?
+
+__Key Tasks__
+1. Identify the business task
+2. Consider key stakeholders
+
 # Prepare
 By using 6 months of the data provided, we will be able to prepare the dataset.
 I'll be using April 2020 to September 2020 data.
