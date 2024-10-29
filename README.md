@@ -5,8 +5,7 @@ Case Study from Google Analytics Course
 In this case study, I will be using the data analysis process and steps to demostrate my understanding and answer real-world questions from this fictional company.
 
 * Data Link: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html) this will be the data used for the Cyclistic company
-* Scripts:
-* 
+
 
 
 # Scenario
